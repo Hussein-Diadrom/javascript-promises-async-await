@@ -12,4 +12,4 @@ const moviePromise = fetchMovies();
 
 moviePromise.then(result => {
     console.log(result);
-})
+});
