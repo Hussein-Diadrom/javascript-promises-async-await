@@ -46,7 +46,7 @@ async function getBooksOrMoviesAsync(){
             console.error("Error waiting for the promise race", error);
         }
 }
-    const getBooksAndMoviesAsyncPromise = getBooksAndMoviesAsync();
+  //  const getBooksAndMoviesAsyncPromise = getBooksAndMoviesAsync();
 
    getBooksAndMoviesAsync().then(results=>{
     console.log("movies and books", {
