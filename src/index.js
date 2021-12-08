@@ -52,9 +52,9 @@ async function getBooksOrMoviesAsync(){
         books: results.books
       });
    });
-
-  getBooksOrMoviesAsync().then(results=>{
+   const s = getBooksOrMoviesAsync();
+  s.then(results=>{
     console.log("movies OR books", {
         results
       });
-   })
+   });
