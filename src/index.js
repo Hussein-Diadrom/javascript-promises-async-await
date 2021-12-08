@@ -3,7 +3,7 @@ const movies = require('./data/movies.json');
 
 
 function getBooksAndMovies(){
-    Promise.all([fetchBooks(),fetchMovies()]).then(([books, movies ]) => ({
+     return Promise.all([fetchBooks(),fetchMovies()]).then(([books, movies ]) => ({
         books,
         movies
       }))
