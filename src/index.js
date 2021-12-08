@@ -52,8 +52,8 @@ async function getBooksOrMoviesAsync(){
         books: results.books
       });
    });
-   const s = getBooksOrMoviesAsync();
-  s.then(results=>{
+  
+  getBooksOrMoviesAsync.then(results=>{
     console.log("movies OR books", {
         results
       });
